@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #EEF5DB;
+}
+.fixed-header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    background-color: #333745;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.side-menu{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 8vh;/*mudar*/
+    transition: .5s;
+    background-color: #FE5F55;
+    height: 100vh;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}.menu-icon{
+    align-self: center;
+    transition: .5s;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.icon-wrapper{
+    display: flex;
+    flex: 10;
+}
+.menu-controls{
+    flex: 90;
+}
+.screen-body{
+    padding-top: 5%;
+    padding-left: 8vh;
+    width: 100%-8vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}.screen{
+    width: 80vw;
+    height: 100%;
+}
+.controls{
+    
+}.controls div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    margin: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.controls div:hover{
+    background-color: #EEF5DB;
+}
