@@ -23,7 +23,7 @@ body{
     position: fixed;
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     width: 8vh;/*mudar*/
     transition: .5s;
     background-color: #FE5F55;
@@ -66,9 +66,14 @@ body{
     width: 60px;
     height: 50px;
     margin: 10px 10px;
-    font-size: 20px;
+    padding: 5px;
     cursor: pointer;
 }
 .controls div:hover{
     background-color: #EEF5DB;
+}
+@media(max-height:768px){
+    .controls div{
+        font-size: 16px;
+    }
 }
